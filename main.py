@@ -1,5 +1,6 @@
 import logging
 import time
+import configparser
 
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
@@ -9,7 +10,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.firefox import GeckoDriverManager
-import configparser
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
