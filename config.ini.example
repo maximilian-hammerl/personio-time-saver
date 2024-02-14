@@ -5,4 +5,7 @@ email_address = your-personio@email.address
 password = YourPersonioPassword
 
 [firefox]
-profile_path = C:\Users\YOU\AppData\Roaming\Mozilla\Firefox\Profiles\PROFILE_IDENTIFIER.default-release
+# Windows: C:\Users\YOU\AppData\Roaming\Mozilla\Firefox\Profiles\PROFILE_IDENTIFIER.default-release
+# Mac: ~/Library/Application Support/Firefox/Profiles/PROFILE_IDENTIFIER.default-release or ~/Library/Mozilla/Firefox/Profiles/PROFILE_IDENTIFIER.default-release
+# Linux: ~/.mozilla/firefox/PROFILE_IDENTIFIER.default-release
+profile_path = a/very/long/path/PROFILE_IDENTIFIER.default-release
