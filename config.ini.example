@@ -1,0 +1,8 @@
+[personio]
+# Subdomain from https://subdomain.personio.de
+subdomain = subdomain
+email_address = your-personio@email.address
+password = YourPersonioPassword
+
+[firefox]
+profile_path = C:\Users\YOU\AppData\Roaming\Mozilla\Firefox\Profiles\PROFILE_IDENTIFIER.default-release
